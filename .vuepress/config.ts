@@ -2,8 +2,8 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
-  title: 'vuepress-theme-reco',
-  description: 'Just playing around',
+  title: '灏泓阁',
+  description: '一段笔记，一生的进步',
   theme: 'reco',
   themeConfig: {
     style: '@vuepress-reco/style-default',
@@ -28,10 +28,10 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     navbar:
     [
-      { text: 'Home', link: '/' },
-      { text: 'Categories', link: '/categories/reco/1/' },
-      { text: 'Tags', link: '/tags/tag1/1/' },
-      { text: 'Docs',
+      { text: '首页', link: '/' },
+      { text: '分类', link: '/categories/reco/1/' },
+      { text: '标签', link: '/tags/tag1/1/' },
+      { text: '文档',
         children: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/theme' },
           { text: 'vuepress-theme-reco', link: '/blogs/other/guide' }
