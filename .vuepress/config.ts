@@ -1,7 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   title: '灏泓阁',
   description: '一段笔记，一生的进步',
   theme: 'reco',
